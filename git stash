@@ -1,0 +1,14 @@
+코드를 짜다가 마음에 안들때
+
+git stash를 사용합니다..
+
+
+git stash
+잠시 코드를 옮겨줍니다. 최신 커밋상태에 해당하는 모든 코드!!!
+git stash list
+stash~~한 상태를 알 수 있따.
+git stash save '메모메모'
+메모할 때 사용해용
+
+git stash pop
+: 코드를 다시 불러올 때 사용합니다.

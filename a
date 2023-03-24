@@ -1,5 +1,27 @@
 hello world.
 this is git practice. 
-aaaaaaaaaaaaaaaaaa
-bbbbbbbbbbbbbbbbbbb
-cccccccccccccccc
+
+git branch -M main
+: main branch로 사용합니다.
+
+git add .
+:모든 파일을 스테이징 합니다.
+
+git push -u https://github.com/breeghty/git_practice.git main
+: 해당 레퍼지토리와 연결합니다.
+
+git remote add origin https://github.com/breeghty/git_practice.git
+: origin이라는 변수에 해당 레퍼지토리 주소를 저장합니다.
+
+git push -u origin main
+: origin이라는 변수를 사용해 push 합니다. -u를 통해 해당 레퍼지토리와의 연결을 기억합니다.
+
+git add .
+: 파일을 스테이징 합니다.
+
+git commit -m '수정파일'
+: 다시 한 번 커밋합니다.
+
+git push
+: origin이라는 변수를 사용하지 않아도 쉽게 push 가능합니다.
+

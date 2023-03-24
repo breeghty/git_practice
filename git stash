@@ -12,3 +12,18 @@ git stash save '메모메모'
 
 git stash pop
 : 코드를 다시 불러올 때 사용합니다.
+
+
+git stash는 커밋시 코드를 숨길 때 사용합니다.
+많이 사용하진 않고요..
+
+
+추가 명령어도 있습니다.
+
+git stash list를 하면 stash 상태를 알 수 있어요
+
+* git stash drop 번호
+stash 제거가능합니다.
+* git stash clear
+모든 stash 제거!
+

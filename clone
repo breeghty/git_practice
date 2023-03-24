@@ -10,4 +10,6 @@ git clone '원격저장소 주소'(.git 붙이기)
 
 => git pull 사용하고 git push 사용하세요.
 
-
+* git pull 원격저장소 브랜치명.git
+원격저장소의 최신 내용이 로컬 저장소에 있을 때만 git push 명령어가 가능합니다.
+따라서 git pull로 저장소를 마지막 push 상태로 만들어놓은 뒤, git push를 하세용~~

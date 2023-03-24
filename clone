@@ -8,3 +8,6 @@ git clone '원격저장소 주소'(.git 붙이기)
 그럴 때는 git push 쓰지말고 git pull 쓰세용
 원격저장소에 있는 거 로컬 저장소로 합치라는 의미입니다.
 
+=> git pull 사용하고 git push 사용하세요.
+
+
